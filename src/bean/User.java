@@ -17,7 +17,7 @@ public class User {
 	}  
 	  
 	public void setUname(String Uname) {  
-	    this.Uname = Uname;  
+	    this.Uname = Unames;  
 	} 
 	  
 	public String getName() {  
