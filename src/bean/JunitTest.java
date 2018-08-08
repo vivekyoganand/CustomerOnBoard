@@ -11,7 +11,7 @@ public class JunitTest {
 		public void testOne(){
 			
 			System.out.println("Junit test case to test getters and setters");
-			String Uname = "Admin";
+			String Uname = "Ashwini";
 			User u = new User();
 			u.setUname(Uname);
 			String getName = u.getUname();
