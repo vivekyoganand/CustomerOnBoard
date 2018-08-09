@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registration Form</title>
+<title>Registration Form for DXC</title>
 </head>
 <body background="<%=request.getContextPath()%>/images/bg1.jpeg" style="align:center;width=100%;height=100%; background-repeat: no-repeat;">
 <script>
