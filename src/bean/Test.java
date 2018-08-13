@@ -38,7 +38,7 @@ public class Test{
 		Connection cx = null;
 		MysqlDataSource dataSource = new MysqlDataSource();
 		dataSource.setUser("root");
-		dataSource.setPassword("pass@123");
+		dataSource.setPassword("root");
 		dataSource.setServerName("20.0.3.9");
 		dataSource.setPortNumber(3306);
 		dataSource.setDatabaseName("client_db1");
