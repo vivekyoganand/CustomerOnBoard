@@ -70,7 +70,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#vision">VISION</a></li>
 				<li><a href="Registration.jsp">SIGN UP</a></li>
-				<li><a href="Login.jsp">LOGIN</a></li>
+				<li><a href="Login.jsp">LOGIN karo</a></li>
 			</ul>
 		</div>
 	</div>
