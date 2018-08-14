@@ -78,7 +78,7 @@
 
 	<div class="jumbotron text-center">
 		<h1>DXC TECHNOLOGY</h1>
-		<p>We appreciate C L E A R values..</p>
+		<p>We appreciate C L E A R values....</p>
 	</div>
 	<div class="container-fluid text-center bg-grey">
 		<h2>VISION</h2>
