@@ -12,7 +12,7 @@ import org.testng.Assert;
 
 public class JunitTest {
 		
-	/*
+	
 	@Test
 		public void testOne(){
 			
@@ -24,12 +24,12 @@ public class JunitTest {
 			assertEquals(getName, Uname);
 		
 		
-		}*/
-	@Test
+		}
+	/*@Test
 	public void testOne(){
 		beginAt(“https://www.google.com/“); 
         
-        assertTitleEquals(“Google”);
+        assertTitleEquals(“Google”);*/
 }
 
 
