@@ -2,7 +2,9 @@ package bean;
 import static org.junit.Assert.*;
 import static net.sourceforge.jwebunit.junit.JWebUnit.*;
 import org.junit.Test;
-
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import org.testng.Assert;
@@ -11,24 +13,18 @@ import org.testng.Assert;
 public class JunitTest {
 		
 	
-	/*
-	@Test
-		public void testOne(){
-			
-			System.out.println("Junit test case to test getters and setters");
-			String Uname = "Admin";
-			User u = new User();
-			u.setUname(Uname);
-			String getName = u.getUname();
-			assertEquals(getName, Uname);
-		
-		
-		}*/
-	@Test
-	public void testOne(){
-		beginAt("https://www.google.com/"); 
-        
-        assertTitleEquals("Google");
+	WebDriver driver = newFirefoxDriver();
+//it will open the goggle page
+driver.get("http://google.in"); 
+//we expect the title “Google “ should be present 
+String Expectedtitle = "Google";
+//it will fetch the actual title 
+String Actualtitle = driver.getTitle();
+System.out.println("Before Assetion " + Expectedtitle + Actualtitle);
+//it will compare actual title and expected title
+Assert.assertEquals(Actualtitle, Expectedtitle);
+//print out the result
+System.out.println("After Assertion " + Expectedtitle + Actualtitle + " Title matched ");
        
 	}
 	
