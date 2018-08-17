@@ -12,24 +12,24 @@ import org.testng.Assert;
 
 public class JunitTest {
 		
-	System.setProperty("webdriver.gecko.driver", "/home/smadmin/firefox/geckodriver");
-	WebDriver driver = newFirefoxDriver();
-	//it will open the goggle page
-	driver.get("http://www.google.com"); 
-	//we expect the title “Google “ should be present 
-	String Expectedtitle = "Google";
-	//it will fetch the actual title 
-	String Actualtitle = driver.getTitle();
-	System.out.println("Before Assetion " + Expectedtitle + Actualtitle);
-	//it will compare actual title and expected title
-	Assert.assertEquals(Actualtitle, Expectedtitle);
-	//print out the result
-	System.out.println("After Assertion " + Expectedtitle + Actualtitle + " Title matched ");
-       
-	
-	Thread.sleep(5000);
-		driver.quit();
+	/*
+	@Test
+		public void testOne(){
+			
+			System.out.println(“Junit test case to test getters and setters”);
+			String Uname = “Admin”;
+			User u = new User();
+			u.setUname(Uname);
+			String getName = u.getUname();
+			assertEquals(getName, Uname);
 		
+		
+		}*/
+	@Test
+	public void testOne(){
+		beginAt(“https://www.google.com/“); 
+        
+        assertTitleEquals(“Google”);
 }
 
 
