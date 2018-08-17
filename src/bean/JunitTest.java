@@ -1,6 +1,12 @@
 package bean;
 import static org.junit.Assert.*;
-
+import static org.junit.Assert.*;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+//import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.junit.Test;
 
 public class JunitTest {
