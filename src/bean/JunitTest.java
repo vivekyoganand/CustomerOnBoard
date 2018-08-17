@@ -26,9 +26,9 @@ public class JunitTest {
 		}*/
 	@Test
 	public void testOne(){
-		beginAt("http://localhost/CustomerOnBoard/index.jsp"); 
+		beginAt("https://www.google.com/"); 
         
-        assertTitleEquals("Registration Form");
+        assertTitleEquals("Google");
        
 	}
 	
