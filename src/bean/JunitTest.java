@@ -12,7 +12,7 @@ import org.testng.Assert;
 
 public class JunitTest {
 		
-	
+	System.setProperty("webdriver.gecko.driver", "/home/smadmin/firefox/geckodriver");
 	WebDriver driver = newFirefoxDriver();
 	//it will open the goggle page
 	driver.get("http://www.google.com"); 
@@ -27,7 +27,8 @@ public class JunitTest {
 	System.out.println("After Assertion " + Expectedtitle + Actualtitle + " Title matched ");
        
 	
-	
+	Thread.sleep(5000);
+		driver.quit();
 		
 }
 
