@@ -29,7 +29,7 @@ public class JunitTest {
 	@Test
 		public void testOne(){
 			beginAt("http://localhost:8080/CustomerOnBoard/index1.jsp"); 
-	       		assertTitleEquals("Registration Form");
+	       		Assert.assertTitleEquals("Registration Form");
 		}
 	
 		
