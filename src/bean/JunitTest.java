@@ -26,11 +26,25 @@ public class JunitTest {
 		
 		
 		}*/
-	@Test
+	/*@Test
 		public void testOne(){
 			beginAt("http://localhost:8080/CustomerOnBoard/index1.jsp"); 
 	       		Assert.assertTitleEquals("Registration Form");
-		}
+		}*/
+	
+	WebDriver driver=new FirefoxDriver();
+    	String baseUrl="http://www.google.com";
+    	String expectedTitle="Google";
+    	driver.get(baseUrl);
+    	String actualTitle=driver.getTitle();
+    	if(actualTitle.equals(expectedTitle)){
+        		System.out.println("Test Pass");
+    		}
+   	else{
+        		System.out.println("Test Failed");
+    		}
+	
+	
 	
 		
 }
