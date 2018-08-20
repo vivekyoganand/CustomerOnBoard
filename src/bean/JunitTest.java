@@ -44,7 +44,7 @@ public class JunitTest {
         		System.out.println("Test Failed");
     		}*/
 	
-	system.out.prinlnt("Title Matched");
+	System.out.println("Title Matched");
 	
 		
 }
