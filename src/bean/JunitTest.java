@@ -9,7 +9,7 @@ public class JunitTest {
 	@Test
 	public void login() {
 		//System.out.println("Logging into my account");
-		System.setProperty("webdriver.gecko.driver", "/var/lib/jenkins/workspace/testkar/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.google.com/");
 		String expectedTitle="Google";
