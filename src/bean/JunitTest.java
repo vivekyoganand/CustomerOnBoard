@@ -43,8 +43,8 @@ public class JunitTest {
    	else{
         		System.out.println("Test Failed");
     		}*/
-	
+	public void testOne(){
 	System.out.println("Title Matched");
 	
-		
+	}
 }
