@@ -1,51 +1,25 @@
-package bean;
-import static org.junit.Assert.*;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import java.lang.*;
+package com.org.SeleTest;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-//import org.testng.annotations.Test;
-import org.testng.Assert;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 public class JunitTest {
-		
-	
-	
-	/*@Test
-		public void testOne(){
-			
-			System.out.println("Junit test case to test getters and setters");
-			String Uname = "Ashwini";
-			User u = new User();
-			u.setUname(Uname);
-			String getName = u.getUname();
-			assertEquals(getName, Uname);
-		
-		
-		}*/
-	/*@Test
-		public void testOne(){
-			beginAt("http://localhost:8080/CustomerOnBoard/index1.jsp"); 
-	       		Assert.assertTitleEquals("Registration Form");
-		}*/
-	
-	/*WebDriver driver=new FirefoxDriver();
-    	String baseUrl="http://www.google.com";
-    	String expectedTitle="Google";
-    	driver.get(baseUrl);
-    	String actualTitle=driver.getTitle();
-    	if(actualTitle.equals(expectedTitle)){
-        		System.out.println("Test Pass");
-    		}
-   	else{
-        		System.out.println("Test Failed");
-    		}*/
+
 	@Test
-	public void testOne(){
-	System.out.println("Title Matched");
-	
+	public void login() {
+		//System.out.println("Logging into my account");
+		System.setProperty("webdriver.gecko.driver", "/Users/krajput2/Documents/SOfts/geckodriver");
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.google.com/");
+		String expectedTitle="Google";
+		String actualTitle=driver.getTitle();
+		if(actualTitle.equals(expectedTitle)){
+	        System.out.println("Test Pass");
+	    }
+	    else{
+	        System.out.println("Test Failed");
+	    }
+
 	}
 }
