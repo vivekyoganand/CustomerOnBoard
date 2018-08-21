@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 
-public class TestClass {
+public class JunitTest {
 
 	@Test
 	public void login() throws Exception {
