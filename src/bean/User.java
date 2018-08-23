@@ -19,6 +19,10 @@ public class User {
 	public void setUname(String Uname) {  
 	    this.Uname = Uname;  
 	} 
+	
+	public void setTitle(String Title) {  
+	    this.Title = Title;  
+	} 
 	  
 	public String getName() {  
 	    return Name;  
