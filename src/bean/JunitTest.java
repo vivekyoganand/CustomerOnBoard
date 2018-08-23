@@ -17,7 +17,7 @@ public class JunitTest {
 		WebDriver driver = new HtmlUnitDriver(true);
 		((HtmlUnitDriver) driver).setJavascriptEnabled(true);
 		driver.get("http://10.0.0.10:9090/CustomerOnBoard/index1.jsp");
-		String expectedTitle="Login page";
+		String expectedTitle="CustomerOnBoarding";
 		String actualTitle=driver.getTitle();
 		if(actualTitle.equals(expectedTitle)){
 	        System.out.println("Test Pass");
