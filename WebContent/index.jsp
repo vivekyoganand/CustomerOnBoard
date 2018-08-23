@@ -77,7 +77,7 @@
 	</nav>
 
 	<div class="jumbotron text-center">
-		<h1>DXC TECHNOLOGY</h1>
+		<h1>Welcome to DXC TECHNOLOGY and enjoy</h1>
 		<p>We appreciate C L E A R values..</p>
 	</div>
 	<div class="container-fluid text-center bg-grey">
