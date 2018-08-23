@@ -15,6 +15,10 @@ public class User {
 	public String getUname() {  
 	    return Uname;  
 	}  
+	
+	public String getTitle() {  
+	    return Title;  
+	}  
 	  
 	public void setUname(String Uname) {  
 	    this.Uname = Uname;  
