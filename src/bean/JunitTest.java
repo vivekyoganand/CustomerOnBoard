@@ -20,7 +20,7 @@ public class JunitTest {
 		String expectedTitle="CustomerOnBoarding";
 		System.out.println("Expected Title: "+expectedTitle);
 		String actualTitle=driver.getTitle();
-		System.out.println("Expected Title: "+actualTitle);
+		System.out.println("Actual Title: "+actualTitle);
 		if(actualTitle.equals(expectedTitle)){
 	        System.out.println("Test Pass");
 	    }
