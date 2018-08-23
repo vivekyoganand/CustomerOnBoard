@@ -15,19 +15,11 @@ public class User {
 	public String getUname() {  
 	    return Uname;  
 	}  
-	
-	public String getTitle() {  
-	    return Title;  
-	}  
-	  
+  
 	public void setUname(String Uname) {  
 	    this.Uname = Uname;  
 	} 
-	
-	public void setTitle(String Title) {  
-	    this.Title = Title;  
-	} 
-	  
+  
 	public String getName() {  
 	    return Name;  
 	}  
