@@ -19,17 +19,13 @@ public class JunitTest {
 		driver.get("http://10.0.0.10:9090/CustomerOnBoard/index1.jsp");
 		String expectedTitle="CustomerOnBoarding";
 		System.out.println("Expected Title: "+expectedTitle);
-		User u = new User();
-		u.setTitle(expectedTitle);
 		String actualTitle=driver.getTitle();
-		String actualTitle=u.getTitle();
-		System.out.println("Actual Title: "+actualTitle);
 		if(actualTitle.equals(expectedTitle)){
-	        System.out.println("Test Pass");
+	        System.out.println("Test Fail");
 			
 	    }
 	    else{
-	        System.out.println("Test Fail");
+	        System.out.println("Test Pass");
 	    }
 		
 		/* HtmlUnitDriver unitDriver = new HtmlUnitDriver();
