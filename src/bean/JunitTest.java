@@ -25,7 +25,7 @@ public class JunitTest {
 	        System.out.println("Test Pass");
 	    }
 	    else{
-	        System.out.println("Test Failed");
+	        System.out.println("Test Pass");
 	    }
 		
 		/* HtmlUnitDriver unitDriver = new HtmlUnitDriver();
