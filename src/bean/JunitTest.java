@@ -21,11 +21,11 @@ public class JunitTest {
 		System.out.println("Expected Title: "+expectedTitle);
 		String actualTitle=driver.getTitle();
 		if(actualTitle.equals(expectedTitle)){
-	        System.out.println("Test Pass");
+	        System.out.println("Test Fail");
 			
 	    }
 	    else{
-	        System.out.println("Test Fail");
+	        System.out.println("Test Pass");
 	    }
 		
 		/* HtmlUnitDriver unitDriver = new HtmlUnitDriver();
