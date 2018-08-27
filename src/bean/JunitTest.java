@@ -17,15 +17,15 @@ public class JunitTest {
 		WebDriver driver = new HtmlUnitDriver(true);
 		((HtmlUnitDriver) driver).setJavascriptEnabled(true);
 		driver.get("http://10.0.0.10:9090/CustomerOnBoard/index1.jsp");
-		String expectedTitle="CustomerOnBoarding";
+		String expectedTitle="CustomerOnBoarding for DXC";
 		System.out.println("Expected Title: "+expectedTitle);
 		String actualTitle=driver.getTitle();
 		if(actualTitle.equals(expectedTitle)){
-	        System.out.println("Test Fail");
+	        System.out.println("Test Pass");
 			
 	    }
 	    else{
-	        System.out.println("Test Pass");
+	        System.out.println("Test Fail");
 	    }
 		
 		/* HtmlUnitDriver unitDriver = new HtmlUnitDriver();
