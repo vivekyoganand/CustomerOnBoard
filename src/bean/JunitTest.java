@@ -12,7 +12,7 @@ public class JunitTest {
 
 	@Test
 	public void login() throws Exception {
-		/*System.out.println("Logging into my account");
+		System.out.println("Logging into my account");
 		//System.setProperty("webdriver.gecko.driver", "/Users/krajput2/Documents/SOfts/geckodriver");
 		WebDriver driver = new HtmlUnitDriver(true);
 		((HtmlUnitDriver) driver).setJavascriptEnabled(true);
@@ -49,6 +49,6 @@ public class JunitTest {
  
 		System.out.println("Title of the page is -> " + unitDriver.getTitle());
 		*/
-		System.out.println("helllloooo world");
+		//System.out.println("helllloooo world");
 	}
 }
